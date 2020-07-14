@@ -443,12 +443,12 @@ function handleClick(e) {
 
 function endGame(draw) {
   if (draw) {
-    winningMessageTextElement.innerText = "Berabere!";
+    winningMessageTextElement.innerText = "Draw!";
   } else {
     if (circleTurn) {
-      winningMessageTextElement.innerText = `'O' Kazandı!`;
+      winningMessageTextElement.innerText = `'O' Wins!`;
     } else {
-      winningMessageTextElement.innerText = `'X' Kazandı!`;
+      winningMessageTextElement.innerText = `'X' Wins!`;
     }
   }
   winningMessageElement.classList.add("show");
