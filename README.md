@@ -1,1 +1,1 @@
-https://aliatakay.github.io/Gomoku/
+https://aliatakay.github.io/Gomoku/Gomoku
